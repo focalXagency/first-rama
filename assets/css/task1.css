@@ -130,7 +130,18 @@ span {
     height: 100vh;
     flex-shrink: 0;
     background-position: 17%;
-
+  }
+  .blur{
+    background: linear-gradient(
+      169deg,
+      rgba(0, 0, 0, 0.4) -30.96%,
+      rgba(1, 1, 1, 0.1) 91.59%
+    );
+    backdrop-filter: blur(4px);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
   }
   .rm_main::before{
     content: "";
@@ -158,6 +169,8 @@ span {
     );
     backdrop-filter: blur(4px);
     padding: 20px 20px 14px 20px;
+    position: relative;
+    z-index: 2;
   }
   .rm_right_lang {
     color:#FFF;
@@ -178,6 +191,8 @@ span {
     border-radius: var(--Small-cards-Radius, 24px);
     background: #fff;
     margin: auto;
+    position: relative;
+    z-index: 2;
   }
   .rm_barcode {
     width: 199.123px;
