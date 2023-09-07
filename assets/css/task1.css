@@ -127,6 +127,7 @@ span {
     background-size: cover;
     object-fit: cover;
     width: 100%;
+    height: 100vh;
     height: 740px;
     flex-shrink: 0;
     background-position: 17%;
