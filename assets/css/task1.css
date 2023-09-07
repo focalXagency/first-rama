@@ -70,20 +70,25 @@ span {
   flex-shrink: 0;
   border-radius: var(--Small-cards-Radius, 24px);
   background: #fff;
-  margin: 30px 4.6852% 32px auto;
+  /* margin: 30px 4.6852% 32px auto; */
+  position: absolute;
+  top: 50%;
+  right: 4.6852%;
+  transform: translateY(-50%);
+  text-align: center;
 }
 .rm_barcode {
   width: 199.123px;
   height: 200px;
   flex-shrink: 0;
   margin: 53px auto;
-  margin-bottom: 108px;
+/*   margin-bottom: 108px; */
 }
 .rm_barcode_img{
     width: 199.123px;
     height: 200px;
     flex-shrink: 0;  
-    margin : 72px auto;
+/*     margin : 72px auto; */
 }
 .rm_box_p1,
 .rm_box_p12 {
@@ -193,6 +198,9 @@ span {
     margin: auto;
     position: relative;
     z-index: 2;
+    top: 0px;
+    transform: translateY(0);
+    left: 0;
   }
   .rm_barcode {
     width: 199.123px;
@@ -206,7 +214,7 @@ span {
     height: 172.414px;
     flex-shrink: 0;
     margin: 14px auto;
-    margin-left: 13px;
+    /* margin-left: 13px; */
   }
   .rm_container_text {
     text-align: center;
