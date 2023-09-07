@@ -13,7 +13,7 @@ html {
   background-size: cover;
   object-fit: cover;
   width: 100%;
-  height: 649px;
+  height: 100vh;
   flex-shrink: 0;
 }
 .rm_navBar {
