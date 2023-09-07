@@ -229,9 +229,10 @@ span {
     font-size: 2.2rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 120%;
-    width: 197px;
-    margin-bottom: 16px;
+    line-height: 170%;
+    width: 292px;
+    margin-bottom: 24px;
+    transform: translateX(-17%);
   }
   .rm_box_p2,
   .rm_box_p22 {
