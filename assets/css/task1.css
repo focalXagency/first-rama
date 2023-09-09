@@ -23,6 +23,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
+  z-index: 3;
 }
 .rm_lift {
   display: flex;
@@ -76,6 +78,7 @@ span {
   right: 4.6852%;
   transform: translateY(-50%);
   text-align: center;
+  z-index: 3;
 }
 .rm_barcode {
   width: 199.123px;
@@ -125,6 +128,13 @@ span {
 .rm_nav_small , .rm_keep_in{
   display: none;
 }
+.blur{
+  background: linear-gradient(169deg, rgba(0, 0, 0, 0.60) 8.18%, rgba(1, 1, 1, 0.30) 91.43%);
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 1;
+}
 @media screen and (max-width: 992px) {
   .rm_main {
     background-image: url("../img/background-small.png");
@@ -135,13 +145,6 @@ span {
     height: 100vh;
     flex-shrink: 0;
     background-position: 17%;
-  }
-  .blur{
-    background: linear-gradient(169deg, rgba(0, 0, 0, 0.60) 8.18%, rgba(1, 1, 1, 0.30) 91.43%);
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    z-index: 1;
   }
   .rm_main::before{
     content: "";
